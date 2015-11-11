@@ -47883,3 +47883,210 @@ Stack trace:
 REQUEST_URI=/sword/site/forgetPassword
 HTTP_REFERER=http://localhost/shield/
 ---
+2015/11/11 10:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/getIpPubli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/getIpPublic
+---
+2015/11/11 10:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sara/site/getIpPublic".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sara/site/getIp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\sword\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sword/sara/site/getIpPublic
+---
+2015/11/11 10:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/www.ma...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\sword\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sword/site/css/www.main.css
+HTTP_REFERER=http://localhost/sword/site/getIpPublic
+---
+2015/11/11 10:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/www.mai...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\sword\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sword/site/js/www.main.js
+HTTP_REFERER=http://localhost/sword/site/getIpPublic
+---
+2015/11/11 10:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/www.hom...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\sword\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sword/site/js/www.homepage.a.php
+HTTP_REFERER=http://localhost/sword/site/getIpPublic
+---
+2015/11/11 10:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/www.hom...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\sword\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sword/site/js/www.homepage.b.php
+HTTP_REFERER=http://localhost/sword/site/getIpPublic
+---
+2015/11/11 10:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/fav...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\sword\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sword/site/images/favicon.png
+HTTP_REFERER=http://localhost/sword/site/getIpPublic
+---
