@@ -12,7 +12,9 @@ class SiteController extends Controller
 	public function accessRules() {
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','login','error','isloged','register','accountActivation','forgetPassword','getIpPublic'),
+				'actions'=>array(	'index','login','error','isloged',
+									'register','accountActivation',
+									'forgetPassword'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -179,21 +181,6 @@ class SiteController extends Controller
 		echo json_encode( array('sistemConfirm'=>$sistemConfirm, 'sistemMessage'=>$sistemMessage) );
 	}
 
-	public function actionGetIpPublic(){
-		$url = "http://www.une.com.co/miip/";
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_HEADER, 0); 
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-		$htmltext = trim(curl_exec($ch));
-		$index = strrpos($htmltext, '<span');
-		$htmltext = substr($htmltext, $index, strlen($htmltext)  ); 		
-		$index = strrpos($htmltext, '">');
-		$htmltext = substr($htmltext, $index+2, strlen($htmltext) );
-		$index = strrpos($htmltext, '</span>');
-		$htmltext = substr($htmltext, 0, $index ); 
-		var_dump( $htmltext );
-	}
 
 
 

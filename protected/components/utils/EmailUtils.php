@@ -38,6 +38,7 @@
                 $queue->eq_dynamic_data_json =  serialize($data);    
             } 
             $queue->save();
+            // echo CHtml::errorSummary($queue);
         }
 
 
@@ -60,11 +61,6 @@
             } 
             return $code;
         }
-
-
-
-
-
 
     }
 

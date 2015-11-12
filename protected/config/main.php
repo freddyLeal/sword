@@ -66,6 +66,9 @@ return array(
         'emailUtils'=>array(
         	'class'=>'application.components.utils.EmailUtils',
         ),
+        'systemUtils'=>array(
+        	'class'=>'application.components.utils.SystemUtils',
+        ),
 		
 		/*
 		'db'=>array(
@@ -78,7 +81,7 @@ return array(
 	
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=sword',
+			'connectionString' => 'mysql:host=localhost;dbname=sword_db',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
@@ -110,8 +113,8 @@ return array(
             'transportType' => 'smtp',
             'transportOptions' => array(
                 'host' => 'smtp.gmail.com',
-                'username' => 'flacogarbage@gmail.com',
-                'password' => '****',
+                'username' => 'application.group.liza@gmail.com',
+                'password' => 'Sysmelec1440',
                 'port' => '465',
                 'encryption'=>'tls',
             ),
@@ -131,8 +134,8 @@ return array(
 		'TEMPLATE_FORGET_EMAIL'=>3,
 		'DATE_FORMAT'=>'Y-m-d',
 		'URL_BASE'=>'http://localhost/sword/',
-        'DEFAULT_NOTIFICATIONS_EMAIL'=>'flacogarbage@gmail.com',
-        'DEFAULT_NOTIFICATIONS_EMAIL_NAME'=>'Sword Application',
+        'DEFAULT_NOTIFICATIONS_EMAIL'=>'application.group.liza@gmail.com',
+        'DEFAULT_NOTIFICATIONS_EMAIL_NAME'=>'Liza',
 	),
 );
 
