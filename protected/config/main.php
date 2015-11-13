@@ -113,8 +113,8 @@ return array(
             'transportType' => 'smtp',
             'transportOptions' => array(
                 'host' => 'smtp.gmail.com',
-                'username' => 'application.group.liza@gmail.com',
-                'password' => 'Sysmelec1440',
+                'username' => '**********@gmail.com',
+                'password' => '********',
                 'port' => '465',
                 'encryption'=>'tls',
             ),

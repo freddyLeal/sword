@@ -48692,3 +48692,28 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/sword/email/sendEmail
 ---
+2015/11/13 01:25:30 [error] [php] fsockopen(): SSL: crypto enabling timeout (C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Transport\StreamBuffer.php:233)
+Stack trace:
+#0 C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Transport\AbstractSmtpTransport.php(101): Swift_Transport_StreamBuffer->initialize()
+#1 C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Mailer.php(74): Swift_SmtpTransport->start()
+#2 C:\wamp\www\sword\protected\extensions\yii-mail\YiiMail.php(133): Swift_Mailer->send()
+#3 C:\wamp\www\sword\protected\components\utils\EmailUtils.php(21): YiiMail->send()
+#4 C:\wamp\www\sword\protected\components\utils\EmailUtils.php(49): EmailUtils->sendSimpleEmail()
+#5 C:\wamp\www\sword\protected\controllers\SiteController.php(118): EmailUtils->sendInstantaneousEmail()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#9 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\sword\index.php(13): CWebApplication->run()
+REQUEST_URI=/sword/site/register
+in C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Transport\StreamBuffer.php (233)
+in C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Transport\StreamBuffer.php (70)
+in C:\wamp\www\sword\protected\extensions\yii-mail\vendors\swiftMailer\classes\Swift\Transport\AbstractSmtpTransport.php (101)

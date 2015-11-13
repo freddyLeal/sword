@@ -111,12 +111,18 @@ class SiteController extends Controller
 					$newUser->user_security_code = yii::app()->emailUtils->generateSecurityCode();
 					if( $newUser->save()){
 						$sistemConfirm = true;
-						Yii::app()->emailUtils->sendInstantaneousEmail(	Yii::app()->params['TEMPLATE_REGISTER_EMAIL'],
-																		"Register acount",
-																		$newUser->user_email,
-																		$newUser->user_name,
-																		array('data'=>'q='.$newUser->user_security_code) );
-					}
+						try{
+							Yii::app()->emailUtils->sendInstantaneousEmail(	Yii::app()->params['TEMPLATE_REGISTER_EMAIL'],
+																			"Register acount",
+																			$newUser->user_email,
+																			$newUser->user_name,
+																			array('data'=>'q='.$newUser->user_security_code) );
+						} catch (Exception $e) {
+							$sistemConfirm = false;
+							$newUser->delete();
+							$sistemMessage = "Error transmitting information.";
+						} 
+					}	
 				}
 			} else 
 				$sistemMessage = "Error transmitting information.";
