@@ -41,11 +41,13 @@ class SiteController extends Controller
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	public function actionIndex() {		
+	public function actionIndex(){
+		header("Access-Control-Allow-Origin: *");		
 		$this->render('index');
 	}
 
-	public function actionError() {
+	public function actionError(){
+		header("Access-Control-Allow-Origin: *");
 		if($error=Yii::app()->errorHandler->error) {
 			echo json_encode( array('sistemConfirm'=>false,'sistemMessage'=>"Unexpected error.") );
 			// if(Yii::app()->request->isAjaxRequest)
@@ -55,7 +57,8 @@ class SiteController extends Controller
 		}
 	}
 
-	public function actionLogin() {
+	public function actionLogin(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "Error to login, please try again.";
 		$data = file_get_contents("php://input");
@@ -64,28 +67,33 @@ class SiteController extends Controller
 			$model = new LoginForm;
 			$model->username = $data['username'];
 			$model->password = $data['password'];
-			if($model->validate() && $model->login())
+			if($model->validate() && $model->login()){
 				$sistemConfirm = true; 
+				$sistemMessage = Yii::app()->user->id;
+			}
 		} else {
 			$this->redirect(array('index'));
 		}
 		echo json_encode( array('sistemConfirm'=>$sistemConfirm, 'sistemMessage'=>$sistemMessage) );
 	}
 
-	public function actionLogout() {
+	public function actionLogout(){
+		header("Access-Control-Allow-Origin: *");
 		Yii::app()->user->logout();
 		echo json_encode( array('sistemConfirm'=>true, 'sistemMessage'=>"") );
 		// $this->redirect(Yii::app()->homeUrl);
 	}
 
 	public function actionIsLoged(){
-		$sistemConfirm = false;
+		header("Access-Control-Allow-Origin: *");
+		$sistemConfirm = false;		
 		if( yii::app()->user->id != null)
 			$sistemConfirm = true;
 		echo json_encode( array('sistemConfirm'=>$sistemConfirm) );
 	}
 
 	public function actionRegister(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$data = file_get_contents("php://input");
@@ -131,6 +139,7 @@ class SiteController extends Controller
 	}	
 
 	public function actionAccountActivation(){
+		header("Access-Control-Allow-Origin: *");
 		if( isset($_GET['q']) ){
 			$user = User::model()->find("user_security_code = '".$_GET['q']."'");
 			if($user!=null){
@@ -162,6 +171,7 @@ class SiteController extends Controller
 	}
 
 	public function actionForgetPassword(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$data = file_get_contents("php://input");

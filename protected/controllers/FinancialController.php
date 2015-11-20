@@ -39,6 +39,7 @@ class FinancialController extends Controller
 
 
 	public function actionGetReport(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$report = FinancialReport::model()->find("fr_user_id = ".yii::app()->user->id." ORDER BY fr_id DESC" );
@@ -54,6 +55,7 @@ class FinancialController extends Controller
 	}
 
 	public function actionCreateIncome(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$data = file_get_contents("php://input");
@@ -80,6 +82,7 @@ class FinancialController extends Controller
 	}	
 
 	public function actionCreateExpense(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$data = file_get_contents("php://input");
@@ -106,6 +109,7 @@ class FinancialController extends Controller
 	}
 
 	public function actionCreateFinancialType(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "";
 		$data = file_get_contents("php://input");
@@ -125,6 +129,7 @@ class FinancialController extends Controller
 
 
 	public function actionGetFinancialTypes(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = true;
 		$sistemMessage = "";
 		$sistemMessage = $this->getFinancialTypes();
@@ -133,6 +138,7 @@ class FinancialController extends Controller
 
 
 	public function actionGetIncomesAndExpenses(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = true;
 		// $limit = 10;
 		$sistemMessage = array();
@@ -168,6 +174,7 @@ class FinancialController extends Controller
 
 
 	public function actionGetIncomeOrExpense(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "The information supplied don't be correct.";
 		$data = file_get_contents("php://input");
@@ -209,6 +216,7 @@ class FinancialController extends Controller
 
 
 	public function actionEditIncomeOrExpense(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "The information supplied don't be correct.";
 		$data = file_get_contents("php://input");
@@ -268,6 +276,7 @@ class FinancialController extends Controller
 
 
 	public function actionDeleteIncomeOrExpense(){
+		header("Access-Control-Allow-Origin: *");
 		$sistemConfirm = false;
 		$sistemMessage = "The information supplied don't be correct.";
 		$data = file_get_contents("php://input");
